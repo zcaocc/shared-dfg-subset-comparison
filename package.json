@@ -1,0 +1,37 @@
+{
+  "name": "process-subset-comparison-prototype",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "dev:ui": "vite --host 127.0.0.1",
+    "setup": "pnpm install",
+    "build": "tsc && vite build",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@mantine/core": "^9.2.2",
+    "@mantine/dates": "^9.2.2",
+    "@mantine/hooks": "^9.2.2",
+    "@vitejs/plugin-react": "4.3.4",
+    "@viz-js/viz": "^3.27.0",
+    "d3-geo": "^3.1.1",
+    "dayjs": "^1.11.21",
+    "lucide-react": "^0.555.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "topojson-client": "^3.1.0",
+    "vite": "4.5.14",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.0",
+    "@types/geojson": "^7946.0.16",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@types/topojson-client": "^3.1.5",
+    "typescript": "^5.9.3",
+    "vitest": "0.34.6"
+  }
+}

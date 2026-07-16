@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="120 35 1430 790" role="img" aria-labelledby="title desc">
+  <title id="title">Shared DFG comparison logo</title>
+  <desc id="desc">Three colored subset boxes flow through a shared central process view, with a magnifying glass and dashed focus circle.</desc>
+  <defs>
+    <marker id="arrow-red" viewBox="0 0 16 16" refX="10" refY="8" markerWidth="2.55" markerHeight="2.55" orient="auto" markerUnits="strokeWidth" overflow="visible">
+      <path d="M 0 0 L 16 8 L 0 16 Z" fill="#e61414"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 16 16" refX="10" refY="8" markerWidth="2.55" markerHeight="2.55" orient="auto" markerUnits="strokeWidth" overflow="visible">
+      <path d="M 0 0 L 16 8 L 0 16 Z" fill="#06bb42"/>
+    </marker>
+    <marker id="arrow-yellow" viewBox="0 0 16 16" refX="10" refY="8" markerWidth="2.55" markerHeight="2.55" orient="auto" markerUnits="strokeWidth" overflow="visible">
+      <path d="M 0 0 L 16 8 L 0 16 Z" fill="#F7C600"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="900" fill="#FFFFFF"/>
+
+  <!-- Subtle analysis focus motif -->
+  <circle cx="840" cy="430" r="365" fill="none" stroke="#B7D7FA" stroke-width="12" stroke-linecap="round" stroke-dasharray="28 32"/>
+  <circle cx="840" cy="430" r="285" fill="none" stroke="#B7D7FA" stroke-width="34"/>
+  <path d="M 1045 635 L 1190 780" fill="none" stroke="#B7D7FA" stroke-width="70" stroke-linecap="round"/>
+
+  <!-- Colored subset flows -->
+  <path d="M 390 160 H 840 V 315" fill="none" stroke="#e61414" stroke-width="34" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#arrow-red)"/>
+  <path d="M 990 350 H 1130 C 1210 350 1200 270 1295 270 H 1440" fill="none" stroke="#e61414" stroke-width="34" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#arrow-red)"/>
+
+  <path d="M 350 430 H 690" fill="none" stroke="#06bb42" stroke-width="34" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#arrow-green)"/>
+  <path d="M 990 430 H 1440" fill="none" stroke="#06bb42" stroke-width="34" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#arrow-green)"/>
+
+  <path d="M 390 700 H 840 V 545" fill="none" stroke="#F7C600" stroke-width="34" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#arrow-yellow)"/>
+  <path d="M 990 510 H 1130 C 1210 510 1200 590 1295 590 H 1440" fill="none" stroke="#F7C600" stroke-width="34" stroke-linecap="butt" stroke-linejoin="round" marker-end="url(#arrow-yellow)"/>
+
+  <!-- Shared process view -->
+  <rect x="690" y="315" width="300" height="230" rx="44" fill="#FFFFFF" stroke="#315f93" stroke-width="34"/>
+
+  <!-- Equal-size subset boxes arranged along a gentle arc -->
+  <rect x="250" y="90" width="140" height="140" rx="28" fill="#FFFFFF" stroke="#e61414" stroke-width="28"/>
+  <rect x="210" y="360" width="140" height="140" rx="28" fill="#FFFFFF" stroke="#06bb42" stroke-width="28"/>
+  <rect x="250" y="630" width="140" height="140" rx="28" fill="#FFFFFF" stroke="#F7C600" stroke-width="28"/>
+</svg>
