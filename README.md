@@ -104,8 +104,22 @@ No environment variables are needed for browser-side computation. The optional
 Vercel functions can be protected with `PMT_API_TOKEN`. When enabled, the
 frontend may send the matching `VITE_PMT_API_TOKEN`.
 
-`VITE_PMT_API_TOKEN` is included in browser JavaScript and must not be treated
+`VITE_PMT_API_TOKEN` is included in browser JavaScript and must not be treated 
 as a strong secret for a public deployment.
+
+## Production Access
+
+Production deployments use a lightweight client-side access gate. Open the
+deployed prototype once with:
+
+`https://<deployment-url>/?access=shareddfgsurvey`
+
+After access is granted, the parameter is removed from the URL and permission is
+stored for the current browser session. Local development with `pnpm dev` does
+not require this parameter.
+
+This mechanism is intended only to control the study entry flow. It is not a
+security boundary or authentication mechanism.
 
 ## License
 
