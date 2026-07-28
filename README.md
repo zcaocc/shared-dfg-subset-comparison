@@ -109,4 +109,4 @@ as a strong secret for a public deployment.
 
 ## License
 
-Copyright (c) 2026 Zhichao Yao. All rights reserved. See `LICENSE`.
+The source code in this repository is licensed under the MIT License.
